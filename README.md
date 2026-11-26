@@ -2,6 +2,10 @@
 
 A single-page **Mini Store Checkout** web application built with zero-dependency Node.js + vanilla HTML/CSS/JS, paired with an automated **Playwright** browser test suite, prioritized risk-based test plan, and documented test results.
 
+## Preview
+
+![Mini Store Checkout UI Preview](./assets/checkout-preview.jpg)
+
 ---
 
 ## Key Features
@@ -23,6 +27,8 @@ A single-page **Mini Store Checkout** web application built with zero-dependency
 
 ```text
 mini-checkout/
+├── assets/
+│   └── checkout-preview.jpg # UI preview screenshot
 ├── public/
 │   ├── index.html          # Single-page checkout markup
 │   ├── styles.css          # Layout, frosted cards, and animations
