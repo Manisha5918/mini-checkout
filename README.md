@@ -6,6 +6,13 @@ A single-page **Mini Store Checkout** web application built with zero-dependency
 
 ![Mini Store Checkout UI Preview](./assets/checkout-preview.jpg)
 
+The screenshot above shows the **Northwind Goods — Mini Store Checkout** single-page interface in action after an order is submitted:
+
+- **Header & Progress Bar:** Displays the store title, a live summary pill (`1 item · ₹299.50`), and the 3-step checkout indicator (`1 Select Items` → `2 Review Cart` → `3 Confirmation`).
+- **Products Catalog (Top Left):** Lists fixed-price items (**Canvas Tote Bag** at `₹499.00` and **Ceramic Coffee Mug** at `₹299.50`) with live in-cart badges (`1 in cart`) and `Add to Cart` actions.
+- **Your Cart (Bottom Left):** Interactive line-item table with unit price, `-` / `+` quantity stepper, line total (`₹299.50`), `Remove`, and `Clear Cart` controls.
+- **Customer Details & Idempotent Submit (Right):** Summarizes item count, free delivery, and `Order Total` (`₹299.50`), followed by `Full Name *` and `Order Note (Optional)` inputs and the disabled `Order Placed` button enforcing single-submission protection against duplicate clicks.
+
 ---
 
 ## Key Features
